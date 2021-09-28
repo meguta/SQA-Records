@@ -1,0 +1,68 @@
+html{ 
+    font-family: 'Common Pixel', sans-serif; /* Global Font */                                   
+}
+
+/* ---------- Title/ Logo ---------*/ 
+#main_head{ 
+margin: auto;
+text-align: center;
+
+
+}
+
+
+
+/* ---------- Main body section for Play, Locked, Unlocked Button ---------*/ 
+
+#sec1{ 
+    position: relative; top: 200px;  
+}
+
+
+.container { 
+    font-size: xx-large;
+    margin: auto;
+    
+}
+
+.button{ /* Background to be changed  */
+
+    background-color: rgb(214, 233, 226);
+    margin: auto;
+    text-align: center;
+    outline: black;
+    margin-bottom: 30px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    height: 10%;
+    width: fit-content;
+    border-radius: 18px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.575);
+    cursor: pointer;    
+}
+
+.button:active{ 
+    /* Link to next HTML page */
+    box-shadow: rgba(0, 0, 0, 0.151);
+    transform: translateY(2px)
+    
+}
+
+
+
+/* ---------- ---- ---------*/ 
+
+body{ 
+    background-color: #6abe30;
+/* JUST TO STOP USER SELECTION/ HIGHLIGHTING */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* FOR DEBUGGIN */
+/*{ outline: 2px solid rgba(245, 245, 245, 0.363); } */
