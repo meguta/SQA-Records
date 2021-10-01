@@ -10,6 +10,38 @@ text-align: center;
 
 }
 
+@import url('https://css.gg/menu.css');
+.gg-menu {
+    transform: scale(var(--ggs,1.3))
+   }
+   
+   .gg-menu,
+   .gg-menu::after,
+   .gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+   }
+   
+   .gg-menu::after,
+   .gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+   }
+   
+   .gg-menu::after {
+    top: 6px
+   } 
+
+.gg-menu:hover{ 
+       opacity: 80%;
+       cursor: pointer;
+   }
 
 
 /* ---------- Main body section for Play, Locked, Unlocked Button ---------*/ 
